@@ -1,7 +1,7 @@
 package main
 
 import (
-	"golesson/loops"
+	"golesson/slices"
 )
 
 func main() {
@@ -9,5 +9,9 @@ func main() {
 	// fmt.Print()
 	// conditionals.Demo1()
 	// conditionals.Workshop1()
-	loops.Demo1()
+	// loops.Demo1()
+	// arrays.Demo1()
+	//arrays.Demo2()
+	// slices.Demo1()
+	slices.Demo2()
 }
