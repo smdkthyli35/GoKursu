@@ -1,7 +1,8 @@
 package main
 
 import (
-	"golesson/for_range"
+	"fmt"
+	"golesson/pointers"
 )
 
 func main() {
@@ -27,5 +28,11 @@ func main() {
 
 	// sayilar := []int{10, 15, 65}
 	// fmt.Println(functions.ToplaVariadic(sayilar...))
-	for_range.Demo3()
+	// sayi := 20
+	// pointers.Demo1(&sayi)
+	// fmt.Println("Maindeki sayı: ", sayi)
+
+	sayilar := []int{1, 2, 3}
+	pointers.Demo2(sayilar)
+	fmt.Println("Maindeki sayı: ", sayilar[0])
 }
