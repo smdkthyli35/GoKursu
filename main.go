@@ -1,8 +1,7 @@
 package main
 
 import (
-	"fmt"
-	"golesson/functions"
+	"golesson/for_range"
 )
 
 func main() {
@@ -23,9 +22,10 @@ func main() {
 	// sonuc1, sonuc2, sonuc3, sonuc4 := functions.DortIslem(20, 5)
 	// fmt.Println(sonuc1, sonuc2, sonuc3, sonuc4)
 
-	var toplam = functions.ToplaVariadic(1, 5, 6, 8, 9, 5)
-	fmt.Println("Toplam: ", toplam)
+	// var toplam = functions.ToplaVariadic(1, 5, 6, 8, 9, 5)
+	// fmt.Println("Toplam: ", toplam)
 
-	sayilar := []int{10, 15, 65}
-	fmt.Println(functions.ToplaVariadic(sayilar...))
+	// sayilar := []int{10, 15, 65}
+	// fmt.Println(functions.ToplaVariadic(sayilar...))
+	for_range.Demo3()
 }
